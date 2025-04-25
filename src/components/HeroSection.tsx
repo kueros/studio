@@ -8,7 +8,7 @@ const HeroSection = () => {
         autoPlay
         loop
         muted
-        className="absolute z-0 w-auto min-w-full min-h-full max-w-none"
+        className="absolute z-0 w-auto min-w-full min-h-full max-w-none object-cover"
       >
         <source src="/AgusPaginaDemo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
@@ -35,3 +35,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
