@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const HeroSection = () => {
@@ -11,7 +10,7 @@ const HeroSection = () => {
         muted
         className="absolute z-0 w-auto min-w-full min-h-full max-w-none"
       >
-        <source src="https://player.vimeo.com/external/384355243.sd.mp4?s=c3c9886875c394e06e42818c29f4285c2f835b58&profile_id=139&oauth2_token_id=57447761" type="video/mp4" />
+        <source src="/AgusPaginaDemo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
